@@ -1,0 +1,253 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    
+    width: 100%;
+    background-color: rgb(190, 31, 37);
+    padding: 5px;
+    margin:5px;
+   
+}
+ .nav img {
+
+          width: 5%;
+          height:5%;
+          float: left; 
+
+      
+    }
+    
+.nav ul  li{
+      background-color: rgb(141, 33, 33);
+    color: white;
+     float: left; 
+    list-style-type: none;
+     padding:25px; 
+      margin: 15px; 
+   
+
+
+}
+.nav ul li:hover
+{
+
+    color:black;
+  
+    
+}
+.clear {
+    clear: both;
+}  
+.mypic {
+        
+    width: 100%;
+    height:50vh;
+  background-image: url(../template_session4/background.png);
+   background-size:100% 100%;
+}
+   
+
+  
+  h1{
+
+     text-align: center;
+
+  }
+        button{
+
+           
+            background-color:rgb(197, 31, 31) ;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            width: 130px;
+            height: 50px;
+            margin: 10px;
+            
+        
+        }
+        button:hover{
+            
+            background-color:rgb(146, 130, 130);
+            color: red;
+           
+        
+        }
+
+        
+
+ 
+ table{
+    border: 10px solid rgb(243, 234, 234);
+background-color: rgb(216, 208, 208); 
+width: 80%;
+text-align: center;
+margin: 130px;
+
+      border-spacing: 4px; 
+  border: 10px solid red; 
+    border: 2px solid rgb(134, 35, 35);
+    }
+    td{
+
+        border-radius: 5px;
+        background-color: rgb(75, 75, 73);
+        padding: 5px;
+          border: 2px solid rgb(170, 29, 29); 
+        
+    }
+th{
+
+    height: 60px;
+    background-color:white;
+     border: 2px solid rgb(170, 29, 29); 
+    border-radius: 5px;
+}
+.table img{
+
+
+    width: 30px;
+    height:30px;
+}
+.ma{
+
+    width: 15px;
+    height: 15px;
+}
+.mm{
+     text-decoration-line:line-through ;
+}
+ .color{
+
+  background-color: rgb(54, 52, 52);
+}
+.mq{
+
+    background-color: rgb(54, 52, 52);
+    text-decoration-line:line-through ;
+  }
+  .mr{
+
+    background-color: rgb(54, 52, 52);
+    width: 15px;
+    height: 15px;
+}
+  
+.table h1{
+
+  text-align: center;
+
+     
+}
+
+
+
+ .nn{
+    background-image: url(../template_session4/back2.jpg);
+    margin: 30px;
+    padding: 30px;
+ }
+ .pic .pic-one {
+    background-color:beige;
+    color: hsl(0, 50%, 5%);
+    width: 20%;
+    border: 20px;
+    text-align: center;
+    padding: 40px;
+    margin-top: 30px;
+    display:inline-block;
+    margin: 20px;
+    border: 2px solid black;
+  
+   
+}
+
+.pic .pic-one img {
+    width: 100%;
+    height: 150px;
+    margin: 10px;
+    clip-path:margin-box;
+    
+background-size: 75%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+    div{
+        width: 100%;
+        height:30%;
+           text-align: center;
+       
+    
+      }
+
+
+hr{
+    border: 1px solid black;
+  
+
+}
+.bb{
+
+    background-color: rgb(86, 80, 80);
+    
+}
+.background{
+
+    background-image: url(../template_session4/php.png); 
+   background-size:100% 100%;
+
+
+
+}
+
+.text{
+ background-color:rgb(154, 154, 227);
+    color: hsl(0, 50%, 5%);
+    width: 20%;
+    border: 20px;
+    text-align: center;
+    padding: 50px;
+    margin-top: 40px;
+    display:inline-block;
+    margin: 100px;
+     background-image: url(../template_session4/php.png); 
+   background-size:30% 30%;
+   background-repeat: no-repeat;
+   background-position: top;
+
+
+ 
+}
+
+
+
+ .back4{
+    
+    background-color: orange;
+    color: hsl(0, 50%, 5%);
+    width: 20%;
+    border: 20px;
+    text-align: center;
+    padding: 50px;
+    margin-top: 30px;
+    display:inline-block;
+    margin: 100px;
+    background-image: url(../template_session4/mysql.png); 
+    background-size:30% 30%;
+    background-repeat: no-repeat;
+    background-position: top;
+
+}
+.signature{
+
+    height: 50px;
+    width: 1495px;
+        text-align: center;
+        background-color: #000;
+        color: rgb(232, 228, 225);
+        margin: 20px;
+        }
